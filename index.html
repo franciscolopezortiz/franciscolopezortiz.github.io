@@ -5,21 +5,21 @@
     <!-- SEO Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Ingeniería Hidráulica - Tecnología aplicada al agua - Desarrollo web">
-    <meta name="keywords" content="ingeniero, hidráulico, hydraulic, engineer, frontend, developer, pagina web, paco, lópez, desarrollador, web">
+    <meta name="description" content="Ingeniería Hidráulica - Tecnología en hidrología - Desarrollo web">
+    <meta name="keywords" content="ingeniero, hidráulico, hydraulic, engineer, hidrología, frontend, developer, web, paco, lópez, desarrollador">
     <meta name="author" content="Paco López">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
 	<meta property="og:site_name" content="Paco López" /> <!-- website name -->
 	<meta property="og:site" content="http://pacolopez.me/" /> <!-- website link -->
 	<meta property="og:title" content="Paco López"/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="Ingeniería Hidráulica - Tecnología aplicada al agua - Desarrollo web" /> <!-- description shown in the actual shared post -->
+	<meta property="og:description" content="Ingeniería hidráulica - Tecnología en hidrología - Desarrollo web" /> <!-- description shown in the actual shared post -->
 	<meta property="og:image" content="assets/images/me.jpg" /> <!-- image link, make sure it's jpg -->
 	<meta property="og:url" content="http://pacolopez.me/" /> <!-- where do you want your post to link to -->
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Paco López - Innovate to get better &#128077;&#127996;</title>
+    <title>Innovar para ser mejores &#128077;&#127996; - Paco López</title>
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -72,9 +72,18 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#contact">CONTACTO</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="en.html">EN</a>
+                
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ESPAÑOL</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="en.html"><span class="item-text">ENGLISH</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="fr.html"><span class="item-text">FRANÇAIS</span></a>
+                    </div>
                 </li>
+                <!-- end of dropdown menu -->
+
             </ul>
         </div>
     </nav> <!-- end of navbar -->
@@ -88,10 +97,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-container">
-                            <h1><span id="js-rotating">INGENIERÍA HIDRÁULICA, TECNOLOGÍA APLICADA AL AGUA, DESARROLLO WEB</span></h1>
+                            <h1><span id="js-rotating">INGENIERÍA HIDRÁULICA, TECNOLOGÍA EN HIDROLOGÍA, DESARROLLO WEB</span></h1>
                             <p class="p-heading p-large">Innovar para ser mejores &#128077;&#127996;</p>
-                            <a class="btn-solid-lg page-scroll" href="#">MI CV RESUMIDO</a>
-                            <a class="btn-solid-lg page-scroll" href="#">MI CV COMPLETO</a>
+                            <a class="btn-solid-lg page-scroll" href="assets/docs/Francisco_López_Ortiz_CV_2020.pdf">MI CURRÍCULUM VITAE</a>
                         </div>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -114,7 +122,7 @@
                 <div class="col-lg-12">
                     <!-- Filter -->
                     <div class="button-group filters-button-group">
-                        <a class="button is-checked" data-filter="*"><span>MOSTRAR TODOS</span></a>
+                        <a class="button is-checked" data-filter="*"><span>SIN FILTRAR</span></a>
                         <a class="button" data-filter=".hydraulic"><span>HYDRÁULICA</span></a>
                         <a class="button" data-filter=".international"><span>INTERNACIONALES</span></a>
                         <a class="button" data-filter=".development"><span>DESARROLLO WEB</span></a>
@@ -162,10 +170,11 @@
                 <div class="col-lg-5">
                     <div class="text-container">
                         <div class="section-title">CONTACTO</div>
-                        <h2>Mándame un e-mail</h2>
+                        <h2>Contáctame</h2>
                         <ul class="list-unstyled li-space-lg">
-                            <li><i class="fas fa-envelope"></i><a href="mailto:lopezortiz94@gmail.com">lopezortiz94@gmail.com</a></li>
                             <li class="address"><i class="fas fa-map-marker-alt"></i>León, Guanajuato, México</li>
+                            <li><i class="fas fa-phone"></i><a href="tel:+524773985005">+52 477 398 5005</a></li>
+                            <li><i class="fas fa-envelope"></i><a href="mailto:f.lopezortiz94@gmail.com">f.lopezortiz94@gmail.com</a></li>
                         </ul>
                         <h3>Redes sociales</h3>
                         <span class="fa-stack">
@@ -233,8 +242,8 @@
                                     <div class="card">
                                         <img class="card-image" src="assets/images/raul.png" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Asesor de negocios profesional y couch personal.</div>
-                                            <div class="testimonial-author">Raúl González - Consultor de E-learning</div>
+                                            <div class="testimonial-text">Experto en e-learning y couch personal</div>
+                                            <div class="testimonial-author">Raúl González</div>
                                         </div>
                                     </div>
                                 </div> <!-- end of swiper-slide -->
@@ -245,8 +254,8 @@
                                     <div class="card">
                                         <img class="card-image" src="assets/images/lalo.png" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Experto en IoT trabajando con Arduino, C++ e impresión 3D.</div>
-                                            <div class="testimonial-author">Lalo Padrón - Coordinador de Future Lab</div>
+                                            <div class="testimonial-text">Experto en internet de las cosas (IoT)</div>
+                                            <div class="testimonial-author">Lalo Padrón</div>
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -257,8 +266,8 @@
                                     <div class="card">
                                         <img class="card-image" src="assets/images/richard.png" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Desarrollador completo, experto en hackatones y líder de proyectos.</div>
-                                            <div class="testimonial-author">Ricardon Mirón - Co-fundador de Future Lab</div>
+                                            <div class="testimonial-text">Project manager experto en hackathones</div>
+                                            <div class="testimonial-author">Ricardon Mirón</div>
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -269,8 +278,8 @@
                                     <div class="card">
                                         <img class="card-image" src="assets/images/rodo.png" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Matemático experto en IA y un excelente tallerista.</div>
-                                            <div class="testimonial-author">Rodolfo Ferro - Co-fundador de Future Lab</div>
+                                            <div class="testimonial-text">Matemático experto en inteligencia artificial (AI)</div>
+                                            <div class="testimonial-author">Rodolfo Ferro</div>
                                         </div>
                                     </div>
                                 </div> <!-- end of swiper-slide -->
@@ -281,8 +290,8 @@
                                     <div class="card">
                                         <img class="card-image" src="assets/images/mickey.png" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Un excelente tipo internacional y experto en Ruby.</div>
-                                            <div class="testimonial-author">Miguel Torres - Desarrollador completo</div>
+                                            <div class="testimonial-text">Desarrollador de web apps con Ruby</div>
+                                            <div class="testimonial-author">Miguel Torres</div>
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -293,8 +302,8 @@
                                     <div class="card">
                                         <img class="card-image" src="assets/images/mase.png" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Ayuda a las empresas a continuar mejorando sus procesos.</div>
-                                            <div class="testimonial-author">Mason Parish - Consultor de capital humano</div>
+                                            <div class="testimonial-text">Desarrollador de capital humano</div>
+                                            <div class="testimonial-author">Mason Parish</div>
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -305,8 +314,8 @@
                                     <div class="card">
                                         <img class="card-image" src="assets/images/qq.png" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Talentosa reclutadora de ByteDance e intérprete de español, inglés y chino.</div>
-                                            <div class="testimonial-author">Qinging Dong - Especialista en desarrollo en latinoamérica</div>
+                                            <div class="testimonial-text">Desarrollo latinoamericano e intérprete</div>
+                                            <div class="testimonial-author">Qinging Dong</div>
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -317,8 +326,8 @@
                                     <div class="card">
                                         <img class="card-image" src="assets/images/pastrano.png" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Experto en proyectos de hidráulica y un gran visionario.</div>
-                                            <div class="testimonial-author">Francisco Pastrano - Ingeniero de obras en SAPAL</div>
+                                            <div class="testimonial-text">Ingeniero de obras hidráulicas</div>
+                                            <div class="testimonial-author">Francisco Pastrano</div>
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -334,7 +343,7 @@
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of slider -->
-    <!-- end of testimonials -->
+    <!-- end of allies -->
 
 
     <!-- Copyright -->
